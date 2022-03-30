@@ -89,6 +89,7 @@ const rootReducer=(state, action)=>{
                     end=true;
                     if(!win){
                     //    input lose code
+                        //    input lose code
                     }
                 }
 
@@ -125,4 +126,3 @@ const rootReducer=(state, action)=>{
 
 export default rootReducer;
 
-// EDITED ON 3-29 CLASS

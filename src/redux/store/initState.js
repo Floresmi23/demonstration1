@@ -14,7 +14,8 @@ function initState(){
         change:false,
         end:false,
         win:false
-    //------------------------------------
+
+
     }
 }
 
