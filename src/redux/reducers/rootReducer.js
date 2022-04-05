@@ -16,8 +16,8 @@ const rootReducer=(state, action)=>{
                 if(activeGuess.includes("" && index < state.answer.length)){
                     activeGuess[index]=action.val;
                 }else{
-                    wn=false;
-                    // wn=true;
+                    // wn=false;  Test 1
+                    wn=true;
                 }
             }
 
@@ -53,8 +53,8 @@ const rootReducer=(state, action)=>{
                 }
 
                 if(activeGuess.indexOf('')===0){
-                    wn=false;
-                    // wn=true;
+                    // wn=false; Test1
+                    wn=true;
 
                 }
 
