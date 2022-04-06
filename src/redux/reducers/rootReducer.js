@@ -8,16 +8,16 @@ const rootReducer=(state, action)=>{
     switch (action.type){
         case "InputLetter":
             let nL;
+            let wn;
 
 
 
             if(!state.end){
-                const index = activeGuess.indexOf('4');
+                const index = activeGuess.indexOf('');
                 let wn=false;
-                if(activeGuess.includes("4" && index < state.answer.length)){
+                if(activeGuess.includes("" && index < state.answer.length)){
                     activeGuess[index]=action.val;
                 }else{
-                    // wn=false;  Test 1
                     wn=true;
                 }
             }
@@ -32,7 +32,10 @@ const rootReducer=(state, action)=>{
 
             return nL;
 
+            wn = true;
 
+
+            return wn;
 
 
         case "Delete":
@@ -54,8 +57,7 @@ const rootReducer=(state, action)=>{
                     }
                 }
 
-                if(activeGuess.indexOf('4')===0){
-                    // wn=false; Test1
+                if(activeGuess.indexOf('')===0){
                     wn=true;
 
                 }
