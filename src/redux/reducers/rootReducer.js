@@ -10,10 +10,11 @@ const rootReducer=(state, action)=>{
             let nL;
 
 
+
             if(!state.end){
-                const index = activeGuess.indexOf('');
+                const index = activeGuess.indexOf('4');
                 let wn=false;
-                if(activeGuess.includes("" && index < state.answer.length)){
+                if(activeGuess.includes("4" && index < state.answer.length)){
                     activeGuess[index]=action.val;
                 }else{
                     // wn=false;  Test 1
@@ -30,6 +31,7 @@ const rootReducer=(state, action)=>{
             }
 
             return nL;
+
 
 
 
@@ -52,7 +54,7 @@ const rootReducer=(state, action)=>{
                     }
                 }
 
-                if(activeGuess.indexOf('')===0){
+                if(activeGuess.indexOf('4')===0){
                     // wn=false; Test1
                     wn=true;
 
