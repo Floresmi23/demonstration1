@@ -24,6 +24,7 @@ html, body{
   margin-bottom: 25px;
   position: relative;
   width: 100%;
+
 }
 
 .guess{
@@ -32,6 +33,7 @@ html, body{
   justify-content: space-between;
   align-items: center;
   position: relative;
+
 }
 
 
@@ -42,6 +44,7 @@ html, body{
   justify-content: center;
   align-items: center;
   border: 2px solid #939598;
+
 }
 
 .keys{
@@ -52,6 +55,7 @@ html, body{
   width: 360px;
   position: relative;
   height: 175px;
+
 }
 
 .key{
@@ -87,3 +91,18 @@ html, body{
   width: 55px;
   cursor: pointer;
 }
+
+.newGuesses{
+  position: absolute;
+  top: 121px;
+  left: 5px;
+  margin: 0;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+

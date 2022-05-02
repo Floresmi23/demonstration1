@@ -16,6 +16,9 @@ function Keys(){
             {keys_ele}
             <div className={"key submit"} onClick={()=>dispatch(SubmitGuess())}>Enter</div>
             <div className={"key delete"} onClick={()=>dispatch(Delete())}>Delete</div>
+
+            {/*<div className={"key ChangeColor"} onClick={()=>dispatch(ChangeColor())}>Change Color</div>*/}
+
         </div>
     )
 }
